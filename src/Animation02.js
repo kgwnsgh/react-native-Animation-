@@ -47,6 +47,11 @@ class AnimTwo extends Component {
         </Animated.View>
 
         <Button title="Animation Start" onPress={this.runAnimation} />
+
+        <Button
+          title="Check the console"
+          onPress={() => console.log('button tuoch')}
+        />
       </View>
     );
   }
